@@ -1,0 +1,46 @@
+* {
+  background-color:#C6D9D7;
+  font-family: 'Oxygen', sans-serif;
+  font-size: 20px;
+}
+
+h1 {
+  position:fixed; top:0px;
+  width:50%;
+  height:30px;
+  left:25%;
+  right:-25%;
+}
+img {
+  padding:3em;
+}
+.badge {
+  position:fixed; left:0px; top:45px;
+  text-align:center;
+  border:5px solid #8999A6;
+  margin:2em;
+  width:3em;
+  height:5em;
+}
+
+.navigator {
+  position:fixed; top:45px; right:0px;
+  margin:2em;
+  width:30%;
+  }
+
+.button {
+  border:3px solid black;
+  margin:0em;
+  text-align:center;
+  padding:.5em;
+}
+
+.spacer {
+  color:#C6D9D7;
+}
+
+.welcome {
+position:fixed; top:425px; right:2em;
+width:30%;
+}
