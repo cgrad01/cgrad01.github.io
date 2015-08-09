@@ -1,49 +1,56 @@
 * {
-  background-color:#C6D9D7;
+  background-color:#8999A6;
   font-family: 'Oxygen', sans-serif;
   font-size: 20px;
 }
 
-h1 {
-  position:fixed; top:0px;
-<<<<<<< HEAD
-  width:50%;
-=======
->>>>>>> build-one
-  height:30px;
-  left:25%;
-  right:-25%;
-}
-img {
-  padding:3em;
-}
-.badge {
-  position:fixed; left:0px; top:45px;
-  text-align:center;
-  border:5px solid #8999A6;
-  margin:2em;
-  width:3em;
-  height:5em;
+a {
+  color:#C6D9D7;
+  text-decoration:none;
 }
 
-.navigator {
-  position:fixed; top:45px; right:0px;
+a:hover {
+  color:#DEA093;
+}
+
+h1 {
+  position:fixed; top:0px;
+  font-size:3em;
+  margin-left:.85em;
+  color:#3B5A73;
+}
+img {
+  padding:1em;
+}
+.badge {
+  position:fixed; left:0px; top:70px;
+  text-align:center;
+  border:5px solid #3B5A73;
   margin:2em;
+  margin-left:3em;
+}
+.navigator {
+  position:fixed; top:70px; right:0px;
+  margin:2em;
+  margin-right:3em;
   width:30%;
   }
 
 .button {
-  border:3px solid black;
+  border:5px solid #3B5A73;
   margin:0em;
   text-align:center;
   padding:.5em;
 }
 
 .spacer {
-  color:#C6D9D7;
+  color:#8999A6;
 }
 
 .welcome {
-position:fixed; top:425px; right:2em;
+position:fixed; top:425px; right:3em;
 width:30%;
+text-align:justify;
+margin-top:10px;
+
 }
