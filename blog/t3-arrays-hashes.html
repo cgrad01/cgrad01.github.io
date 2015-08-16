@@ -1,0 +1,27 @@
+Arrays and Hashes
+
+Arrays and hashes are both ways to store data in Ruby, and then be able to access and operate on that data in a variety of ways.
+
+The key to knowing when to use an array, versus when to use a hash, lies in the nature of the defining characteristic of these tools: their keys.
+
+The elements of an array, and the elements of a hash can both be accessed by using their keys. In an array the keys are numeric, while in a hash, the key can be whatever object you desire.
+
+This ability to make the key an object, is the feature that sets hashes apart, and makes them the clear choice in certain situations. <a href="http://www.sitepoint.com/guide-ruby-collections-ii-hashes-sets-ranges/">The example provided by Robert Qualls at Sitepoint</a> illustrates a perfect situation where hashes are superior, because of their ability to be referenced via a meaningful key, not just a random number.
+
+At Dev Bootcamp we just finished a unit learning about HTML and CSS, during which we learned about hexadecimal colors. They are a great tool for getting the exact colors you want for your site, but it is impossible to remember which value corresponds with what color. Say your site is using a certain color theme, you shouldn't have to look up these same hexadecimal values over and over again, what if right off the top, we assigned the three to six colors (or more) to a hash where their keys were actually meaningful?? Instead needing to remember what #DEA093 looks like we can just enter the following:
+
+  color_themes = {
+  grayish_red => #DEA093
+  dark_slate => #3B5A73
+  }
+
+  Or who even cares what the color is right we can assign them according to their purpose like the following:
+
+  color_themes = {
+  hover_color => #DEA093,
+  background_color => #3B5A73,
+  }
+
+  It would be of little to no help if we assigned these colors to an array, who could remember if grayish_red was color_theme[0] or color_theme[1]? The hash allows us to this group of things with actual meaning, allowing us to complete our projects with more efficiency, and actually giving our code an added level of readability (you would obviously know what part of the code you were working in with the color was labeled "color_theme{background_color}").
+
+  So that was a lot of writing to basically say, use hashes when you want to impart meaning to your group of items, and arrays when it doesn't really matter if they are labeled sequentially.
