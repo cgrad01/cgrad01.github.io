@@ -92,3 +92,8 @@ color:black;
 .blogdate {
 position:fixed;top:5em;left:27em;
 }
+
+code {
+  background-color: gray;
+  display:inline-block;
+}

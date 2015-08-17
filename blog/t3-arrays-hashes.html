@@ -1,27 +1,109 @@
-Arrays and Hashes
 
-Arrays and hashes are both ways to store data in Ruby, and then be able to access and operate on that data in a variety of ways.
+<!DOCTYPE html>
+<head>
+  <title>The Bootcamp Blog</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/blog-stylesheet.css">
+</head>
 
-The key to knowing when to use an array, versus when to use a hash, lies in the nature of the defining characteristic of these tools: their keys.
+<main>
+<h1>Corey's Development</h1>
+  <table class="badge">
+    <tr>
+      <td>
+      <img src="corey headshot.jpg"/>
+    </td>
+    </tr>
+    <tr>
+      <td>
+      <a href="mailto:cgrad01@gmail.com">E-mail Corey</a>
+    </td>
+    </tr>
+    <table class="navigator">
+      <tr class="button">
+        <td class="button">
+          <a href="#" index=about>About Me</a>
+        <td class="spacer">
+          <p>______</p>
+        </td>
+        <td class="button">
+          <a href="https://github.com/cgrad01">GitHub</a>
+        </td>
+        </td>
+      </tr>
+       <tr>
+        <td class="spacer">
+          <p>______</p>
+        </td>
+        </tr>
+      <tr class="button">
+        <td class="button">
+           <a href="#">Projects</a>
+         <td class="spacer">
+          <p>______</p>
+        </td>
+        <td class="button">
+           <a href="https://twitter.com/cgrad01">Twitter</a>
+        </td>
+        </td>
+      </tr>
+       <tr>
+        <td class="spacer">
+          <p>______</p>
+        </td>
+        </tr>
+      <tr class="button">
+        <td class="button">
+           <a href="http://cgrad01.github.io/my-blog-index.html">Blog</a>
+         <td class="spacer">
+          <p>______</p>
+        </td>
+        <td class="button">
+           <a href="https://www.linkedin.com/pub/corey-grad/25/668/2b
+">LinkedIn</a>
+        </td>
+        </td>
+      </tr>
+  <section class="welcome">
+    <p>
+      Welcome to the blog! Please <a href=mailto:grad01@gmail.com>e-mail me</a> with any inquiries.
+    </p>
+  </section>
+</main>
 
-The elements of an array, and the elements of a hash can both be accessed by using their keys. In an array the keys are numeric, while in a hash, the key can be whatever object you desire.
+<main class="blogcontent">
+  <h1 class="blogtitle">Bat for Hashes</h1>
+  <h2></h2>
+  <h4 class = "blogdate">8/17/15</h4>
+  <section>
+<p>Arrays and hashes are both ways to store data in Ruby, and then be able to access and operate on that data in a variety of ways.</p>
 
-This ability to make the key an object, is the feature that sets hashes apart, and makes them the clear choice in certain situations. <a href="http://www.sitepoint.com/guide-ruby-collections-ii-hashes-sets-ranges/">The example provided by Robert Qualls at Sitepoint</a> illustrates a perfect situation where hashes are superior, because of their ability to be referenced via a meaningful key, not just a random number.
+<p>The key to knowing when to use an array, versus when to use a hash, lies in the nature of the defining characteristic of these tools: their keys.</p>
 
-At Dev Bootcamp we just finished a unit learning about HTML and CSS, during which we learned about hexadecimal colors. They are a great tool for getting the exact colors you want for your site, but it is impossible to remember which value corresponds with what color. Say your site is using a certain color theme, you shouldn't have to look up these same hexadecimal values over and over again, what if right off the top, we assigned the three to six colors (or more) to a hash where their keys were actually meaningful?? Instead needing to remember what #DEA093 looks like we can just enter the following:
+<p>The elements of an array, and the elements of a hash can both be accessed by using their keys. In an array the keys are numeric, while in a hash, the key can be whatever object you desire.</p>
 
-  color_themes = {
+<p>This ability to make the key an object, is the feature that sets hashes apart, and makes them the clear choice in certain situations. <a href="http://www.sitepoint.com/guide-ruby-collections-ii-hashes-sets-ranges/">The example provided by Robert Qualls at Sitepoint</a> illustrates a perfect situation where hashes are superior, because of their ability to be referenced via a meaningful key, not just a random number.</p>
+
+<p>At Dev Bootcamp we just finished a unit learning about HTML and CSS, during which we learned about hexadecimal colors. They are a great tool for getting the exact colors you want for your site, but it is impossible to remember which value corresponds with what color. Say your site is using a certain color theme, you shouldn't have to look up these same hexadecimal values over and over again, what if right off the top, we assigned the three to six colors (or more) to a hash where their keys were actually meaningful?? Instead needing to remember what #DEA093 looks like we can just enter the following:</p>
+
+  <code>color_themes = {
   grayish_red => #DEA093
   dark_slate => #3B5A73
-  }
+  }</code>
 
-  Or who even cares what the color is right we can assign them according to their purpose like the following:
+  <p>Or who even cares what the color is right we can assign them according to their purpose like the following:</p>
 
-  color_themes = {
+  <code>color_themes = {
   hover_color => #DEA093,
   background_color => #3B5A73,
-  }
+  }</code>
 
-  It would be of little to no help if we assigned these colors to an array, who could remember if grayish_red was color_theme[0] or color_theme[1]? The hash allows us to this group of things with actual meaning, allowing us to complete our projects with more efficiency, and actually giving our code an added level of readability (you would obviously know what part of the code you were working in with the color was labeled "color_theme{background_color}").
+  <p>It would be of little to no help if we assigned these colors to an array, who could remember if grayish_red was color_theme[0] or color_theme[1]? The hash allows us to this group of things with actual meaning, allowing us to complete our projects with more efficiency, and actually giving our code an added level of readability (you would obviously know what part of the code you were working in with the color was labeled "color_theme{background_color}").</p>
 
-  So that was a lot of writing to basically say, use hashes when you want to impart meaning to your group of items, and arrays when it doesn't really matter if they are labeled sequentially.
+  <p>So that was a lot of writing to basically say, use hashes when you want to impart meaning to your group of items, and arrays when it doesn't really matter if they are labeled sequentially.</p>
+</section>
+
+<section>
+<h5><a href="http://cgrad01.github.io/blog/t2-css-design.html">Older</a></h5>
+<h5><a href="http://cgrad01.github.io/my-blog-index.html">Index</a></h5>
+</section>
