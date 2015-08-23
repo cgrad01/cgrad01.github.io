@@ -24,7 +24,7 @@ h1 {
   font-size:50px;
   color:#3B5A73;
 }
-img {
+.badge {
   padding:1em;
   height:82%;
   display:none;
