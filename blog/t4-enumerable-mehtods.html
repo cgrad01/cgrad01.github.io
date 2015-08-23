@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<head>
+  <title>The Bootcamp Blog</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/blog-stylesheet.css">
+</head>
+
+<main>
+<h1>Corey's Development</h1>
+  <table class="badge">
+    <tr>
+      <td>
+      <img src="corey headshot.jpg"/>
+    </td>
+    </tr>
+    <tr>
+      <td>
+      <a href="mailto:cgrad01@gmail.com">E-mail Corey</a>
+    </td>
+    </tr>
+    <table class="navigator">
+      <tr class="button">
+        <td class="button">
+          <a href="#" index=about>About Me</a>
+        <td class="spacer">
+          <p>______</p>
+        </td>
+        <td class="button">
+          <a href="https://github.com/cgrad01">GitHub</a>
+        </td>
+        </td>
+      </tr>
+       <tr>
+        <td class="spacer">
+          <p>______</p>
+        </td>
+        </tr>
+      <tr class="button">
+        <td class="button">
+           <a href="#">Projects</a>
+         <td class="spacer">
+          <p>______</p>
+        </td>
+        <td class="button">
+           <a href="https://twitter.com/cgrad01">Twitter</a>
+        </td>
+        </td>
+      </tr>
+       <tr>
+        <td class="spacer">
+          <p>______</p>
+        </td>
+        </tr>
+      <tr class="button">
+        <td class="button">
+           <a href="http://cgrad01.github.io/my-blog-index.html">Blog</a>
+         <td class="spacer">
+          <p>______</p>
+        </td>
+        <td class="button">
+           <a href="https://www.linkedin.com/pub/corey-grad/25/668/2b
+">LinkedIn</a>
+        </td>
+        </td>
+      </tr>
+  <section class="welcome">
+    <p>
+      Welcome to the blog! Please <a href=mailto:grad01@gmail.com>e-mail me</a> with any inquiries.
+    </p>
+  </section>
+</main>
+
+<main class="blogcontent">
+  <h1 class="blogtitle">ENUMERABLE</h1>
+  <h2></h2>
+  <h4 class="blogdate">8/23/15</h4>
+  <section>
+    <p>
+      The group_by enumberable method is incredibly useful. This has become especially apparent to me after trying to complete the challenges at Dev Bootcamp during the last week without a complete understanding of how this method functiosn, and some of it's different applications.
+    </p>
+    <p>
+      As with any enumerable, group_by is a method that gets passed to each member of a collection, and returns a hash that is organized according to the block that it is passed. The example give in the ruby docs is the following:
+      <p><img src="../imgs/Screenshot 2015-08-23 15.10.07.png"/></p>
+      <img src="../imgs/Screenshot 2015-08-23 15.10.31"/>
+    </p>
+    <p>
+      At first glance, I did not entirely understand what was happening in this example. I can see what is happening in the {0} hash, those are the numbers divisibe by 3, but how did we group the other two hashes? Since we are using modulo, those keys are referring to the remainder we recieve when we divide the numbers in the array by three. [2,5,8] each return a remainder of 2 when divided by 3, and [1,4,7] each return a remainder of 1.
+    </p>
+    <p>
+      A slight variation of this example more clearly illustrates how the method is working on each member of our collection, and then grouping by the result. Look at how the previous example is changed to a conditional below:
+      <img src="../imgs/Screenshot 2015-08-23 15.15.51"/>
+      <img src="../imgs/Screenshot 2015-08-23 15.16.08"/>
+    </p>
+     <p>
+      Now we can see we have two hash pairs as opposed to the three before. This is because adding the "== 0" to the end of our block creates a conditional where the only two possible results are true or false. Thus, our array is now grouped by true, or false, with the contents of the {0} hashkey from the previous example occupying the {true} hashkey, and all the others now simply being categorized by {false}.
+    </p>
+    <p>
+      When you want to break an array into ordered groups, the group_by enumerable is incredibly useful. The key for the hash group will always be the result of whatever block you are passing in the method.
+    </p>
+  </section>
+</main>
+<section>
+<h5><a href="http://cgrad01.github.io/blog/t3-arrays-hashes.html">Older</a></h5>
+<h5><a href="http://cgrad01.github.io/my-blog-index.html">Index</a></h5>
+</section>
