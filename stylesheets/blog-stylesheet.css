@@ -1,3 +1,7 @@
+
+/*GET NEW COLORSCHEME*/
+/*SEEMS LIKE YOU SHOULD CHANGE EVERYTHING FROM EM TO PX*/
+
 * {
   background-color:#8999A6;
   font-family: 'Oxygen', sans-serif;
@@ -12,11 +16,12 @@ a {
 a:hover {
   color:#DEA093;
 }
+/*NEED TO FIX THIS HEADING ISSUE, SHOULDN'T INCLUDE BLOG TITLE*/
 
 h1 {
-  position:fixed; top:0px;
-  font-size:3em;
-  margin-left:.85em;
+  display:block;
+  margin:20px;
+  font-size:50px;
   color:#3B5A73;
 }
 img {
@@ -33,11 +38,16 @@ img {
   width:18em;
   display:none;
 }
+
+/*CHANGE NAVIGATOR TO BAR, TAKE OUT STUPID BUTTONS AND USE ICONS*/
+
+/*THINK ABOUT WHAT ORDER THE BUTTONS SHOULD BE*/
+
 .navigator {
-  position:fixed; top:70px; right:0px;
-  margin:2em;
-  margin-right:3em;
+  position:fixed; top:20px; right:0px;
+  margin:20px;
   width:18em;
+  clear:right;
   }
 
 .button {
@@ -52,7 +62,7 @@ img {
 }
 
 .welcome {
-position:fixed; top:425px; right:3em;
+position:fixed; top:425px; right:20px;
 width:18em;
 text-align:justify;
 margin-top:10px;
@@ -79,21 +89,27 @@ margin-top:10px;
 
   .blogcontent {
   text-align:justify;
-  margin-top:8em;
+  margin-top:;
   width:28em;
-  margin-left:2em;
+  margin-left:20px;
+  clear:left;
 }
 
 .blogtitle {
-position:fixed; left:.35em;top:2em;
 font-size:40px;
 color:black;
+padding:0px;
+margin:0px;
 }
 .blogdate {
-position:fixed;top:5em;left:27em;
+padding:0px;
+margin:0px;
 }
 
 code {
   background-color: gray;
   display:inline-block;
 }
+
+/*Create formatting for prev/index/next */
+/*Think about making an actual theme, use album art for inspiration, and thematically, maybe try harder to make things music related*/
