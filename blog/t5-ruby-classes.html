@@ -76,43 +76,33 @@
   <h4 class="blogdate">8/30/15</h4>
   <section>
     <p>
-      I have spent a lot of time over the last couple weeks solving different challenges using Ruby. Until this week, those challenges have been one and done affairs, once we got our program to give us to the output we desired, we could move on to the next challenge. But what happens when we need to solve the same problem over and over again? How can we scale our creativity in a way that will make it so that we do not need to reinvent the wheel each time we approach a recurring issue?
+      I have spent a lot of time over the last couple weeks solving different challenges using Ruby. Until this week, those challenges have been one-and-done affairs, once we got our program to give us the output we desired, we could move on to the next challenge. But what happens when we need to solve the same problem over and over again? How can we scale our creativity in a way that will make it so that we do not need to reinvent the wheel each time we approach a recurring issue?
     </p>
     <p>
-      Creating classes allows us scale our solution to these problems, we can use classes to create objects with inherited characteristics that give us the ability to create solutions quickly, even though our inputs may vary.
+      Creating classes allows us to scale our solutions to these problems, we can use classes to create objects with inherited characteristics that give us the ability to create solutions quickly, even though our inputs may vary.
     </p>
     <p>
-      In case you haven't been able to tell, I am a big music fan, and one thing that I have always wondered about is how these big festivals can book and schedule all these artists with so many different variables to consider. With my finely honed Ruby skills, I have created a Festival class, that allows me to book many iterations of my own 1-day music festival taking place in my 600 square ft apartment this summer, "cor_fest", tickets will be very limited.
+      In case you haven't been able to tell, I am a big music fan, and one thing that I have always wondered about is how these big festivals can book and schedule all these artists with so many different variables to consider. With my finely honed Ruby skills, I have created a Festival class, which allows me to book many iterations of my own 1-day music festival taking place in my 600 square foot apartment this summer, "cor_fest", tickets will be very limited.
     </p>
     <p>
-      As you can see below, I have initialized my class with a lineup array, which starts out empty, and a pool of artists who have recently, or are about to, release albums who have contacted me and are interested in playing the inaugural cor_fest.
+      As you can see below, I have initialized my class with a lineup an empty lineup-array, and a pool of artists who have upcoming or recently released albums. Obviously, they have contacted me and are interested in playing the inaugural cor_fest to create buzz around their new releases.
+      <p><img src="imgs/FestivalClass.png"/></p>
     </p>
 
     <p>
-      I'm ecstatic with the quality of artists who have reached out, so I really don't have a preference who plays, but I only have room for 6 one hour sets before my landlord will shut me down, so I created a method that will select 6 random bands from my pool. I made sure to use the .uniq method to ensure I didn't let any band get two slots in my schedule.
+      I'm ecstatic with the quality of artists who have reached out, so I really don't have a preference who plays, but I only have time for 6 one sets before my landlord shuts me down, so I created a method that will select 6 random bands from my pool. I made sure to use the .uniq method to ensure I didn't let any band get two slots in my schedule.
     </p>
     <p>
-      My Method worked
-      <p><img src="imgs/Screenshot 2015-08-23 15.10.07.png"/></p>
-      <p><img src="imgs/Screenshot 2015-08-23 15.10.31.png"/></p>
+      My book_artists method worked, and created a nice group to play cor_fest:
+      <p><img src="imgs/Lineup.png"/></p>
+      It's easy to see how I can continue to add functionality to this class. I need to assign these bands time slots, and decide if they should all play for the same amount of time, if they require different amounts of set-up time, etc.
     </p>
     <p>
-
-    </p>
-    <p>
-
-      <p><img src="imgs/Screenshot 2015-08-23 15.15.51.png"/></p>
-      <p><img src="imgs/Screenshot 2015-08-23 15.16.08.png"/></p>
-    </p>
-     <p>
-
-    </p>
-    <p>
-
+      As the head promoter of cor_fest, I can see that these issues will occur for every year of my festival. It's clear that as I solve these problems during my first year of operation, I should do so using a class, saving myself future headaches, and allowing me to spend more time enjoying all that cor_fest has to offer.
     </p>
   </section>
 </main>
 <section>
-<h5><a href="http://cgrad01.github.io/blog/t3-arrays-hashes.html">Older</a></h5>
+<h5><a href="http://cgrad01.github.io/blog/t4-enumerable-methods.html">Older</a></h5>
 <h5><a href="http://cgrad01.github.io/my-blog-index.html">Index</a></h5>
 </section>
