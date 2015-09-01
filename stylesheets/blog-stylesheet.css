@@ -3,31 +3,31 @@
 /*SEEMS LIKE YOU SHOULD CHANGE EVERYTHING FROM EM TO PX*/
 
 * {
-  background-color:#8999A6;
+  background-color:#543A4D;
   font-family: 'Oxygen', sans-serif;
   font-size: 20px;
 }
 
 a {
-  color:#C6D9D7;
+  color:#D68900;
   text-decoration:none;
 }
 
 a:hover {
-  color:#DEA093;
+  color:#543A4D;
 }
-/*NEED TO FIX THIS HEADING ISSUE, SHOULDN'T INCLUDE BLOG TITLE*/
 
 h1 {
   display:block;
   margin:20px;
   font-size:50px;
-  color:#3B5A73;
+  color:#D68900;
 }
 .badge {
   padding:1em;
   height:82%;
   display:none;
+
 }
 .badge {
   position:fixed; left:0px; top:70px;
