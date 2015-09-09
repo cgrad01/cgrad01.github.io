@@ -1,85 +1,72 @@
 
-/*GET NEW COLORSCHEME*/
-/*SEEMS LIKE YOU SHOULD CHANGE EVERYTHING FROM EM TO PX*/
-
 * {
-  background-color:#8999A6;
+  background-color:#73233B;
   font-family: 'Oxygen', sans-serif;
   font-size: 20px;
 }
 
 a {
-  color:#C6D9D7;
+  color:#D68900;
   text-decoration:none;
 }
 
 a:hover {
-  color:#DEA093;
+  color:#543A4D;
 }
-/*NEED TO FIX THIS HEADING ISSUE, SHOULDN'T INCLUDE BLOG TITLE*/
 
 h1 {
   display:block;
-  margin:20px;
+  margin-left:12px;
+  margin-bottom:16px;
   font-size:50px;
-  color:#3B5A73;
+  color:#D68900;
+  font-weight:normal;
+  text-align: center;
 }
 
-.badge {
-  padding:1em;
+.navbar {
+  width:100%;
+  border:none;
+  color:#D68900;
+  display:block;
+  clear:top;
+  position: left:0px;
   text-align:center;
-  border:5px solid #3B5A73;
-  margin:20px;
-  width:18em;
-  clear:left;
 }
 
-/*CHANGE NAVIGATOR TO BAR, TAKE OUT STUPID BUTTONS AND USE ICONS*/
-
-/*THINK ABOUT WHAT ORDER THE BUTTONS SHOULD BE*/
-
-.navigator {
-  position:relative; top:-620px;
-  margin:20px;
-  width:370px;
-  clear:both;
-  float:right;
-/*  position:relative; top:-596px;
-*/  }
-
-.button {
-  border:5px solid #3B5A73;
-  margin:0em;
-  text-align:center;
-  padding:.5em;
+.navbar .menu {
+  margin:22px;
+  color:#D68900;
 }
 
-.spacer {
-  color:#8999A6;
+.navbar .menu:hover {
+  color:#543A4D;
 }
 
 .welcome {
-width:18em;
 text-align:justify;
-margin-top:10px;
-margin-right:20px;
-float:right;
-position:relative; top: -150px;
+margin-top:60px;
+text-align:center;
+margin-right:70px;
+margin-left:70px;
 }
 
 .technical {
+  vertical-align: text-top;
+  display:inline-block;
   text-align:center;
-  color:#C6D9D7;
-  position:relative; top:-420px;
-  margin:19px;
+  color:black;
+  margin-left: 10%;
   }
 
 .cultural {
+  vertical-align: text-top;
+  display:inline-block;
   text-align:center;
-  margin:20px;
-  color:#C6D9D7;
-  float: right;
-  position:relative; top: -1100px;right:-20px;
+  color:black;
+  float:right;
+  margin-right:10%;
+
   }
 
 code {
@@ -89,19 +76,3 @@ code {
 
 /*Create formatting for prev/index/next */
 /*Think about making an actual theme, use album art for inspiration, and thematically, maybe try harder to make things music related*/
-
-.technical {
-  width:18em;
-  text-align:center;
-   margin-top:22em;
-   color:#C6D9D7;
-  }
-
-.cultural {
-  margin:2em;
-  margin-left:3em;
-  width:18em;
-  text-align:center;
-  margin-top:22em;
-  color:#C6D9D7;
-  }

@@ -3,7 +3,7 @@
 /*SEEMS LIKE YOU SHOULD CHANGE EVERYTHING FROM EM TO PX*/
 
 * {
-  background-color:#543A4D;
+  background-color:#73233B;
   font-family: 'Oxygen', sans-serif;
   font-size: 20px;
 }
@@ -19,54 +19,41 @@ a:hover {
 
 h1 {
   display:block;
-  margin:20px;
+  margin-left:12px;
+  margin-bottom:16px;
   font-size:50px;
   color:#D68900;
-}
-.badge {
-  padding:1em;
-  height:82%;
-  display:none;
+  font-weight:normal;
+  text-align: center;
 
 }
-.badge {
-  position:fixed; left:0px; top:70px;
+
+.navbar {
+  width:100%;
+  border:none;
+  color:#D68900;
+  display:block;
+  clear:top;
+  position:left:0px;
   text-align:center;
-  border:5px solid #3B5A73;
-  margin:2em;
-  margin-left:3em;
-  width:18em;
-  display:none;
 }
 
-/*CHANGE NAVIGATOR TO BAR, TAKE OUT STUPID BUTTONS AND USE ICONS*/
-
-/*THINK ABOUT WHAT ORDER THE BUTTONS SHOULD BE*/
-
-.navigator {
-  position:fixed; top:20px; right:0px;
-  margin:20px;
-  width:18em;
-  clear:right;
-  }
-
-.button {
-  border:5px solid #3B5A73;
-  margin:0em;
-  text-align:center;
-  padding:.5em;
+.navbar .menu {
+  margin:22px;
+  color:#D68900;
 }
 
-.spacer {
-  color:#8999A6;
+.navbar .menu:hover {
+  color:#543A4D;
 }
+
 
 .welcome {
-position:fixed; top:425px; right:20px;
-width:18em;
 text-align:justify;
-margin-top:10px;
-
+margin-top:60px;
+text-align:center;
+margin-right:70px;
+margin-left:70px;
 }
 
 .technical {
@@ -89,9 +76,9 @@ margin-top:10px;
 
   .blogcontent {
   text-align:justify;
-  margin-top:;
-  width:28em;
-  margin-left:20px;
+  display:block;
+  width:80%;
+  margin-left:10%;
   clear:left;
 }
 
@@ -104,9 +91,22 @@ margin:0px;
 .blogdate {
 padding:0px;
 margin:0px;
+text-align:center;
 }
 
-code {
+.blognav {
+  diplay:inline-block;
+  width:80%;
+  margin-left:10%;
+  text-align:center;
+  margin-bottom:20px;
+}
+
+.blognav a {
+  margin:44px;
+}
+
+.code {
   background-color: gray;
   display:inline-block;
 }
