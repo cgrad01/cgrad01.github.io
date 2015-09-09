@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<head>
+  <title>input:output devblog</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/blog-stylesheet.css">
+</head>
+
+<main>
+<h1>input:output</h1>
+  <section class = "navbar">
+  <p class = "navbar">
+  <a class = "menu" href="http://cgrad01.github.io/about-me.html" index=about>About Me</a>
+  <a class = "menu" href="http://cgrad01.github.io/my-blog-index.html">Blog</a>
+  <a class = "menu" href="#">Projects</a>
+  <a class = "menu" href="https://github.com/cgrad01">GitHub</a>
+  <a class = "menu" href="https://twitter.com/cgrad01">Twitter</a>
+  <a class = "menu" href="https://www.linkedin.com/pub/corey-grad/25/668/2b
+">LinkedIn</a>
+  <a class = "menu" href="mailto:cgrad01@gmail.com">E-mail</a>
+  </p>
+</section>
+
+<section class="welcome">
+    <p>
+      Welcome to the blog!
+    </p>
+  </section>
+</main>
+
+<main class="blogcontent">
+  <h1 class="blogtitle">Class Historian</h1>
+  <h2></h2>
+  <h4 class="blogdate">9/9/15</h4>
+  <section>
+    <p>
+      As an object oriented programming language, Ruby gives us a lot of options for solving problems, but keeping track of the different types objects and features of Ruby has been somewhat confusing. The following chart has a lot of information, but for now, but for now just skim the information it presents, and note that there is a large blue box, and a large green box.
+      <p><img src="imgs/Ruby_chart.png"/></p>
+    </p>
+    <p>
+      We can see that object is at the top of the chart, which makes sense because Ruby is object oriented. Beneath object, the items are colored either blue or green, green represents class, and blue includes modules. To understand the difference the categories, I want to focus on some familiar items in the left third of the chart.
+    </p>
+    <p>
+      We can see that the left most green column has some familiar Ruby classes, string, array, hash, integer, float and other classes that we have worked with. These are all classes because each instance of these items will contain certain inherited characterisitics. For example, all ARRAYs will inherit an indexed structure, with the first piece of data indexed with the number 0.
+    </p>
+    <p>
+      Let's continue to look at array to understand the role of modules in Ruby. As you can see in the chart, array and his friends are linked to the blue module box, via enumerable. We have worked with a lot of enumerables before, and I explained how to use the group_by enumberable in a <a href="http://cgrad01.github.io/blog/t4-enumerable-methods.html">previous post</a>. Enumerable is a module because it can be used across different classes, and is not meant to create instances of itself. Enumerable is a collection of methods that can be used on Arrays, Hashes, other data collections.
+    </p>
+    <p>
+      In review, if you are creating instances of something, you are working within a class, but if you need a set of methods that could be applicable across a certain class or classes, you might be looking for a module.
+    </p>
+  </section>
+</main>
+
+<section class = "blognav">
+  <a href="http://cgrad01.github.io/blog/t5-ruby-classes.html">Older</a>
+  <a href="http://cgrad01.github.io/my-blog-index.html">Index</a>
+  <a href="#">Newer</a>
+</section>
