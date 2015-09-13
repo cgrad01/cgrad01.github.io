@@ -1,0 +1,69 @@
+* {
+  background-color:#73233B;
+  font-family: 'Oxygen', sans-serif;
+  font-size: 20px;
+}
+
+a {
+  color:#D68900;
+  text-decoration:none;
+}
+
+a:hover {
+  color:#543A4D;
+}
+
+h1 {
+  display:block;
+  margin-left:12px;
+  margin-bottom:16px;
+  font-size:50px;
+  color:#D68900;
+  font-weight:normal;
+  text-align: center;
+
+}
+
+.navbar {
+  width:100%;
+  border:none;
+  color:#D68900;
+  display:block;
+  clear:top;
+  position:left:0px;
+  text-align:center;
+}
+
+.navbar .menu {
+  margin:22px;
+  color:#D68900;
+}
+
+.navbar .menu:hover {
+  color:#543A4D;
+}
+
+
+.welcome {
+text-align:justify;
+margin-top:60px;
+text-align:center;
+margin-right:70px;
+margin-left:70px;
+}
+
+.tableTitle {
+  text-align:center;
+}
+
+.projects {
+  vertical-align: text-top;
+  width:30%;
+  margin-left:35%;
+  text-align:left;
+  color:black;
+}
+
+.date {
+  text-align:right;
+}
