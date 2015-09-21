@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<head>
+  <title>input:output devblog</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/blog-stylesheet.css">
+</head>
+
+<main>
+<h1>input:output</h1>
+  <section class = "navbar">
+  <p class = "navbar">
+  <a class = "menu" href="http://cgrad01.github.io/about-me.html" index=about>About Me</a>
+  <a class = "menu" href="http://cgrad01.github.io/my-blog-index.html">Blog</a>
+  <a class = "menu" href="http://cgrad01.github.io/projects/projects.html">Projects</a>
+  <a class = "menu" href="https://github.com/cgrad01">GitHub</a>
+  <a class = "menu" href="https://twitter.com/cgrad01">Twitter</a>
+  <a class = "menu" href="https://www.linkedin.com/pub/corey-grad/25/668/2b
+">LinkedIn</a>
+  <a class = "menu" href="mailto:cgrad01@gmail.com">E-mail</a>
+  </p>
+</section>
+
+<section class="welcome">
+    <p>
+      Welcome to the blog!
+    </p>
+  </section>
+</main>
+
+<main class="blogcontent">
+  <h1 class="blogtitle">Sorts</h1>
+  <h2></h2>
+  <h4 class="blogdate">9/21/15</h4>
+  <section>
+    <p>
+      It's one thing to know the purpose, or end result of a method, usually it doesn't take much aside from common sense and maybe some documentation. The sort function, in JavaScript and in Ruby, is pretty self-explanatory in terms of what it does. To gain a deeper level of understanding, it important to know how these function work, because when working on larger amounts of data, the difference between the types of sort functions could be massively important in the functionality of your program.
+    </p>
+    <p>
+      I learned there are many types of sorts, but focused on three basic sorting methods: the bubble sort, the insertion sort, and the selection sort.
+    </p>
+    <p>
+      A bubble sort is a sorting method that iterates through your data set, compares the items next to each other, and will swap them one item on at a time, and continue to iterate until the data is properly ordered.</p>
+
+      <p>Here I show how a bubble sort would handle re-ordering 54321, to 12345:</p>
+
+      <p>Original order: 54321</p>
+      <p>First pass: 45321, 43521, 43251, 43215</p>
+      <p>Second pass: 34215, 32415, 32145, 32145</p>
+      <p>Third pass: 23145, 21345, 21345, 21345</p>
+      <p>Fourth pass: 12345, 12345, 12345, 12345</p>
+
+     <p> Note that a bubble sort needs to make a last pass while the numbers are in order, the sorting algorithm does not know it is done sorting until it completes a pass when no sorts are necessary.
+    </p>
+
+    <p>
+      It's easy to see how a bubble sort could be an inefficient way to go about sorting data, an insertion sort can complete the previous task a little faster. Rather than swapping the two numbers being compared, an insertion sort takes the number being evaluated and inserts into its proper place in the current state of the list. It would look like the following:</p>
+
+      <p>Original order: 54321</p>
+      <p>First pass: 45321, 34521, 23451, 12345</p>
+
+      <p>Note that the insertion sort only needed one pass to order these numbers, while our bubble sort needed four.
+    </p>
+
+    <p>
+      A selection sort works a little differently than these two examples. If you are sorting in ascending order like we have been in the examples, then a selection sort works by finding the smallest item, and placing it at the front of the list. This process is then repeated for the remaining spots in the array.
+    </p>
+      <p>Original order: 54321</p>
+      <p>First pass: 15432</p>
+      <p>Second pass: 12543</p>
+      <p>Third pass: 12354</p>
+      <p>Fourth pass: 12345</p>
+
+      <p>You will notice that this still takes as many passes as our bubble sort, but since each pass through our program is dealing with a smaller number of unsorted items, it will do so a little faster.
+    </p>
+    <p>
+      Clearly, there are many ways to skin a cat. You could shave one patch at a time using only down-strokes, you could tackle one body part at a time, starting with the legs, or you could even do a rotisserie style rotational stroke, shaving ascending circular bands. Seriously though, your cat looks great with hair on it, and rather than worry about that, think about the type and volume of the data you need to sort, and determine which of these methods would work best for your application.
+    </p>
+  </section>
+</main>
+
+<section class = "blognav">
+  <a href="http://cgrad01.github.io/blog/t7-javascript.html">Older</a>
+  <a href="http://cgrad01.github.io/my-blog-index.html">Index</a>
+  <a href="#">Newer</a>
+</section>
